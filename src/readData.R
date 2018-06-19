@@ -3,20 +3,20 @@ library(magrittr)
 #devtools::load_all("worldcup")
 
 #Get Complete dataset 
-CompleteDataset <- read.csv("C:\\Users\\v-inathi.mbomvu\\Desktop\\FIFA WorldCup\\FIFA\\data\\CompleteDataset.csv")
+CompleteDataset <- read.csv("data\\CompleteDataset.csv")
 
 #Player Attributes
-playerAttributes <- read.csv("C:\\Users\\v-inathi.mbomvu\\Desktop\\FIFA WorldCup\\FIFA\\data\\PlayerAttributeData.csv")
+playerAttributes <- read.csv("data\\PlayerAttributeData.csv")
 
 #PlayerPersonalData 
-playerPersonlaData <- read.csv("C:\\Users\\v-inathi.mbomvu\\Desktop\\FIFA WorldCup\\FIFA\\data\\PlayerPersonalData.csv")
+playerPersonlaData <- read.csv("data\\PlayerPersonalData.csv")
 
 #POsition Data
-playerPositionData <- read.csv("C:\\Users\\v-inathi.mbomvu\\Desktop\\FIFA WorldCup\\FIFA\\data\\PlayerPlayingPositionData.csv")
+playerPositionData <- read.csv("data\\PlayerPlayingPositionData.csv")
 
 #FIFA Results
 
-results <- read.csv("C:\\Users\\v-inathi.mbomvu\\Desktop\\FIFA WorldCup\\FIFA\\data\\results.csv")
+results <- read.csv("data\\results.csv")
 
 #Creat New Folder
 sqlShareDir <- paste("c:\\R Programming\\",gsub("-","",Sys.Date()))
